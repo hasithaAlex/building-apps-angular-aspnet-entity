@@ -1,0 +1,11 @@
+C:\Users\HasithaM\Desktop\GIT_2\building-apps-angular-aspnet-entity\backend\backend\bin\Debug\netcoreapp2.0\backend.deps.json
+C:\Users\HasithaM\Desktop\GIT_2\building-apps-angular-aspnet-entity\backend\backend\bin\Debug\netcoreapp2.0\backend.runtimeconfig.json
+C:\Users\HasithaM\Desktop\GIT_2\building-apps-angular-aspnet-entity\backend\backend\bin\Debug\netcoreapp2.0\backend.runtimeconfig.dev.json
+C:\Users\HasithaM\Desktop\GIT_2\building-apps-angular-aspnet-entity\backend\backend\bin\Debug\netcoreapp2.0\backend.dll
+C:\Users\HasithaM\Desktop\GIT_2\building-apps-angular-aspnet-entity\backend\backend\bin\Debug\netcoreapp2.0\backend.pdb
+C:\Users\HasithaM\Desktop\GIT_2\building-apps-angular-aspnet-entity\backend\backend\obj\Debug\netcoreapp2.0\backend.csprojResolveAssemblyReference.cache
+C:\Users\HasithaM\Desktop\GIT_2\building-apps-angular-aspnet-entity\backend\backend\obj\Debug\netcoreapp2.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\HasithaM\Desktop\GIT_2\building-apps-angular-aspnet-entity\backend\backend\obj\Debug\netcoreapp2.0\backend.AssemblyInfoInputs.cache
+C:\Users\HasithaM\Desktop\GIT_2\building-apps-angular-aspnet-entity\backend\backend\obj\Debug\netcoreapp2.0\backend.AssemblyInfo.cs
+C:\Users\HasithaM\Desktop\GIT_2\building-apps-angular-aspnet-entity\backend\backend\obj\Debug\netcoreapp2.0\backend.dll
+C:\Users\HasithaM\Desktop\GIT_2\building-apps-angular-aspnet-entity\backend\backend\obj\Debug\netcoreapp2.0\backend.pdb
