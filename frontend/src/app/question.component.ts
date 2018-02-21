@@ -8,12 +8,14 @@ import { ApiService } from './api.service';
 export class QuestionComponent implements OnInit {
     constructor(private api: ApiService) { }
 
-    ngOnInit() { }
-
     // this is object type any
-    question = {}
+    question = {};
 
     post(question) {
         this.api.postQuestion(question);
+    }
+
+    ngOnInit() {
+      this.api.questionSelected.subscribe(question => this.question = question);
     }
 }

@@ -6,14 +6,14 @@ import { ApiService } from './api.service';
 })
 
 export class QuestionsComponent implements OnInit {
-    constructor(private api: ApiService) { }
-
-    questionList = {};
+  public questionList = [] any;
+    constructor(private api: ApiService) {
+    }
 
     ngOnInit() {
       this.api.getQuestions().subscribe(res => {
         this.questionList = res;
-      })
+      });
     }
 
 }
