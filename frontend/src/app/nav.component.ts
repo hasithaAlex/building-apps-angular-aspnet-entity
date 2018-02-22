@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'nav',
-  templateUrl: `
+  template: `
   <mat-toolbar>
     <button md-button routerLink="/"></button>
     <button md-button routerLink="/question">Question</button>
