@@ -20,6 +20,12 @@ export class ApiService {
     });
   }
 
+  putQuestion(question) {
+    this.http.post(`http://localhost:50865/api/questions/${question.id}`, question).subscribe(res => {
+      console.log(res);
+    });
+  }
+
   selectQuestion(question) {
     this.selectedQuestion.next(question);
   }
