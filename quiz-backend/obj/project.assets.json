@@ -13121,11 +13121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\learn\\building-apps-angular-aspnet-entity\\Ex_Files_Building_Apps_Angular_Core\\Ex_Files_Building_Apps_Angular_Core\\Exercise Files\\03_02\\quiz-backend\\quiz-backend.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\GIT\\building-apps-angular-aspnet-entity\\quiz-backend\\quiz-backend.csproj",
       "projectName": "quiz-backend",
-      "projectPath": "C:\\Users\\Alex\\Desktop\\learn\\building-apps-angular-aspnet-entity\\Ex_Files_Building_Apps_Angular_Core\\Ex_Files_Building_Apps_Angular_Core\\Exercise Files\\03_02\\quiz-backend\\quiz-backend.csproj",
+      "projectPath": "C:\\Users\\Alex\\Desktop\\GIT\\building-apps-angular-aspnet-entity\\quiz-backend\\quiz-backend.csproj",
       "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex\\Desktop\\learn\\building-apps-angular-aspnet-entity\\Ex_Files_Building_Apps_Angular_Core\\Ex_Files_Building_Apps_Angular_Core\\Exercise Files\\03_02\\quiz-backend\\obj\\",
+      "outputPath": "C:\\Users\\Alex\\Desktop\\GIT\\building-apps-angular-aspnet-entity\\quiz-backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

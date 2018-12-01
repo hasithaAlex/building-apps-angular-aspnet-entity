@@ -9,3 +9,14 @@ C:\Users\Alex\Desktop\learn\building-apps-angular-aspnet-entity\Ex_Files_Buildin
 C:\Users\Alex\Desktop\learn\building-apps-angular-aspnet-entity\Ex_Files_Building_Apps_Angular_Core\Ex_Files_Building_Apps_Angular_Core\Exercise Files\03_02\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.dll
 C:\Users\Alex\Desktop\learn\building-apps-angular-aspnet-entity\Ex_Files_Building_Apps_Angular_Core\Ex_Files_Building_Apps_Angular_Core\Exercise Files\03_02\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.pdb
 C:\Users\Alex\Desktop\learn\building-apps-angular-aspnet-entity\Ex_Files_Building_Apps_Angular_Core\Ex_Files_Building_Apps_Angular_Core\Exercise Files\03_02\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\GIT\building-apps-angular-aspnet-entity\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.deps.json
+C:\Users\Alex\Desktop\GIT\building-apps-angular-aspnet-entity\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.runtimeconfig.json
+C:\Users\Alex\Desktop\GIT\building-apps-angular-aspnet-entity\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.runtimeconfig.dev.json
+C:\Users\Alex\Desktop\GIT\building-apps-angular-aspnet-entity\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.dll
+C:\Users\Alex\Desktop\GIT\building-apps-angular-aspnet-entity\quiz-backend\bin\Debug\netcoreapp2.0\quiz-backend.pdb
+C:\Users\Alex\Desktop\GIT\building-apps-angular-aspnet-entity\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\GIT\building-apps-angular-aspnet-entity\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\GIT\building-apps-angular-aspnet-entity\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\GIT\building-apps-angular-aspnet-entity\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.AssemblyInfo.cs
+C:\Users\Alex\Desktop\GIT\building-apps-angular-aspnet-entity\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.dll
+C:\Users\Alex\Desktop\GIT\building-apps-angular-aspnet-entity\quiz-backend\obj\Debug\netcoreapp2.0\quiz-backend.pdb

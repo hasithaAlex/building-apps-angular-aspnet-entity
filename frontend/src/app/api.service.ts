@@ -7,7 +7,7 @@ export class ApiService {
     constructor(private http: HttpClient) {}
 
     postQuestion(question){
-        this.http.post('http://localhost:63100/api/questions', question).subscribe(res => {
+        this.http.post('http://localhost:4000/api/Questions', question).subscribe(res => {
             console.log(res)
         })
     }
