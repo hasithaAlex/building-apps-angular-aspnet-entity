@@ -25,7 +25,7 @@
     </md-card-content>
     <md-card-actions>
         <button *ngIf="!question.id" (click)="post(question)" md-button>Post</button>
-        <button *ngIf="question.id" (click)="post(question)" md-button>Edit</button>
+        <button *ngIf="question.id" (click)="api.putQuestion(question)" md-button>Edit</button>
         <button *ngIf="question.id" (click)="question={}" md-button>New</button>
     </md-card-actions>
 </md-card>
