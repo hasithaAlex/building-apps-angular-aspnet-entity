@@ -4,22 +4,31 @@ import { HttpClientModule } from '@angular/common/http'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { FormsModule } from '@angular/forms'
 import { RouterModule } from '@angular/router'
-import { MdButtonModule, MdInputModule, MdCardModule, MdListModule } from '@angular/material'
+import { 
+  MdButtonModule, 
+  MdInputModule, 
+  MdCardModule, 
+  MdListModule,
+  MdToolbarModule 
+} from '@angular/material'
 
 import { AppComponent } from './app.component'
 
 import { QuestionComponent } from './question.component'
 import { QuestionsComponent } from './questions.component';
+import { HomeComponent } from './home.component';
+import { NavComponent } from "./nav.component";
 import { ApiService } from './api.service'
 
 const routes = [
+  {path: '', component:HomeComponent},
   {path: 'question', component: QuestionComponent},
   {path: 'questions', component: QuestionsComponent}
 ]
 
 @NgModule({
   declarations: [
-    AppComponent, QuestionComponent, QuestionsComponent
+    AppComponent, QuestionComponent, QuestionsComponent, HomeComponent, NavComponent
   ],
   imports: [
     BrowserModule, 
@@ -30,7 +39,8 @@ const routes = [
     MdButtonModule, 
     MdInputModule ,
     MdCardModule,
-    MdListModule
+    MdListModule,
+    MdToolbarModule
   ],
   providers: [ApiService],
   bootstrap: [AppComponent]
