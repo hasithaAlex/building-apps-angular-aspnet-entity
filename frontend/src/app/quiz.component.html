@@ -12,7 +12,7 @@
     </md-card-content>
     <md-card-actions>
         <button *ngIf="!quiz.id" (click)="post(quiz)" md-button>Post</button>
-        <button *ngIf="quiz.id" (click)="api.putquiz(quiz)" md-button>Edit</button>
+        <button *ngIf="quiz.id" (click)="api.putQuiz(quiz)" md-button>Edit</button>
         <button *ngIf="quiz.id" (click)="quiz={}" md-button>New</button>
     </md-card-actions>
 </md-card>

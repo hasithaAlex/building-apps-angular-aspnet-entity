@@ -13,22 +13,38 @@ namespace quiz_backend.Controllers
     [Route("api/Quiz")]
     public class QuizController : Controller
     {
-        readonly QuizContext context;
+        readonly QuizContext _context;
         public QuizController(QuizContext context)
         {
-            this.context = context;
+            this._context = context;
+        }
+
+        [HttpGet]
+        public IEnumerable<Quiz> Get(){
+            return this._context.quizzes;
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody]Quiz question)
+        public async Task<IActionResult> Post([FromBody]Quiz quiz)
         {
-            // this.context.Questions.Add(question);        
-            // await this.context.SaveChangesAsync();
-            // return Ok(question);
-            return null;
+            this._context.quizzes.Add(quiz);
+            await this._context.SaveChangesAsync();
+            return Ok(quiz);
         }
    
+        
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, [FromBody]Quiz quiz)
+        {
+            if(id!=quiz.ID)
+                return BadRequest();
+
+            // var question = await context.Questions.SingleOrDefaultAsync(q=>q.ID == id);
+            _context.Entry(quiz).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return Ok(quiz); 
+        }
     
-    
+
     }
 }
